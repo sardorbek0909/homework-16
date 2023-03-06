@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sign{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.sign__logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sign__logo h2{
+    font-size: 37px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: rgba(112, 112, 112, 1);
+}
+.sign ul{
+    display: flex;
+    gap: 30px;
+}
+.sign ul li{
+    list-style: none;
+}
+.sign ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgba(112, 112, 112, 1);
+}
+.sign__pass{
+    display: flex;
+    gap: 20px;
+}
+.sign__pass a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgba(112, 112, 112, 1);
+}
+.sign__up a{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(48, 110, 247, 1);
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.sign__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 10px;
+}
+.sign__title h1{
+    font-size: 75px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+.sign__title p{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.sign__input{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+}
+.sign__input input{
+    width: 370px;
+    height: 40px;
+}
+.sign__input2{
+    text-align: center;
+    margin-top: 30px;
+}
+.sign__input2 button{
+    width: 370px;
+    height: 40px;
+    background-color: rgba(50, 108, 249, 1);
+    border-radius: 10px;
+    border-color: rgba(50, 108, 249, 1);
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.sign__title2{
+    text-align: center;
+    margin-top: 50px;
+}
+.sign__title2 h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+.sign__title2 p{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+.sign__box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.sign__box1 a{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.sign__title3 p{
+    margin: 60px auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
